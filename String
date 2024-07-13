@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner sc=new Scanner(System.in);
+    String str=sc.nextLine();
+    char[] ch=str.toCharArray();
+    int ind;
+    for(ind=0;ind<str.length();ind++)
+    {
+      if(ch[ind]>=97 && ch[ind]<=122)
+      {
+        break;
+      }
+      else
+      {
+        System.out.print(ch[ind]);
+      }
+    }
+  }
+}
